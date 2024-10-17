@@ -1,0 +1,33 @@
+   98  ls
+   99  nano index.html
+  100  git init
+  101  git status
+  102  git add index.html
+  103  git status
+  104  git commit -m "1er commit"
+  105  git status
+  106  git branch -M main
+  107  git status
+  108  git remote add origin https://github.com/vktor28/ejercicios_20241017.git
+  109  git push -u origin main
+  110  git branch dev
+  111  git checkout dev
+  112  git status
+  113  nano contact.html
+  114  git status
+  115  git commit -m "1er commit Rama Dev"
+  116  git add contact.hrml
+  117  git add contact.html
+  118  git status
+  119  git commit -m "commit Rama DEV"
+  120  git push 
+  121  git push --set-upstream origin dev
+  122  nano index.html
+  123  git add index.html
+  124  git status
+  125  git commit -m "commit 2 Rama DEV"
+  126  git push
+  127  git checkout main
+  128  git merge dev
+  129  git push
+  130  history
